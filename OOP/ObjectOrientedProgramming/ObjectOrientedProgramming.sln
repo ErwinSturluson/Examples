@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming._
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming._6_Reuse", "ObjectOrientedProgramming._6_Reuse\ObjectOrientedProgramming._6_Reuse.csproj", "{A2F8EFE5-E7C7-4EA2-98CE-81196CE8291F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming._6_Reuse.ReusableCodeLibrary", "ObjectOrientedProgramming._6_Reuse.ReusableCodeLibrary\ObjectOrientedProgramming._6_Reuse.ReusableCodeLibrary.csproj", "{0ED9CBEF-AEC0-4A2F-A12D-C67193B4BE15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A2F8EFE5-E7C7-4EA2-98CE-81196CE8291F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F8EFE5-E7C7-4EA2-98CE-81196CE8291F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F8EFE5-E7C7-4EA2-98CE-81196CE8291F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED9CBEF-AEC0-4A2F-A12D-C67193B4BE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED9CBEF-AEC0-4A2F-A12D-C67193B4BE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED9CBEF-AEC0-4A2F-A12D-C67193B4BE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED9CBEF-AEC0-4A2F-A12D-C67193B4BE15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
