@@ -18,7 +18,7 @@
 
     internal class DerivedClass : BaseClass
     {
-        // Uncomment the following code to see the errors.
+        //Uncomment the following code to see the errors.
         //public DerivedClass(int field1)
         //{
         //    // Error: base class private method not available in derived class

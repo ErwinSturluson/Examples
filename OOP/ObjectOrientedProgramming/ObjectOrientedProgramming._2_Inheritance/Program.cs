@@ -20,7 +20,7 @@
         public void DerivedClassPublicMethod()
         {
             // Error: private methods are not inherited:
-            // Uncomment the following code to see the errors.
+            //Uncomment the following code to see the errors.
             //BaseClassPrivateMethod();
 
             // Protected and public methods are inherited, but only available
