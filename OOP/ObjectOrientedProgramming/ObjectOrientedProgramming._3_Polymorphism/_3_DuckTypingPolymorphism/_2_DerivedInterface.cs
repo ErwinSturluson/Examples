@@ -1,4 +1,4 @@
-﻿namespace ObjectOrientedProgramming._3_Polymorphism._2_Ad_Hoc._2_DerivedInterface
+﻿namespace ObjectOrientedProgramming._3_Polymorphism._3_DuckTypingPolymorphism
 {
     public class ClassA
     {
