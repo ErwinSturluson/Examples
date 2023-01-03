@@ -1,4 +1,4 @@
-﻿namespace ObjectOrientedProgramming._3_Polymorphism._3_DuckTypingPolymorphism
+﻿namespace ObjectOrientedProgramming._3_Polymorphism._3_DuckTypingPolymorphism._1_Dynamic
 {
     public class ClassA
     {

@@ -43,11 +43,13 @@
             // Abstraction discards implementation members it doesn't have:
             ClassBase instance1 = new DerivedClass1();
             instance1.Function(nameof(ClassBase));
-            instance1.Procedure(nameof(DerivedClass1));
+            // Uncomment the following code to see the errors.
+            //instance1.Procedure(nameof(DerivedClass1));
 
             IFunction instance2 = new DerivedClass2();
             instance1.Function(nameof(IFunction));
-            instance1.Procedure(nameof(DerivedClass2));
+            // Uncomment the following code to see the errors.
+            //instance1.Procedure(nameof(DerivedClass2));
 
             Console.WriteLine("Hello, Abstraction!");
         }
