@@ -26,9 +26,9 @@
             derivedClass.BaseClassMethod();
 
             BaseClass baseClass = derivedClass;
+            // Instance of the derived class type in the variable of the base
+            // class type has only access to base class method:
             // Uncomment the following code to see the errors.
-            //// Instance of the derived class type in the variable of the base
-            //// class type has only access to base class method:
             //baseClass.DerivedClassMethod();
             //baseClass.BaseClassMethod();
         }
