@@ -18,16 +18,17 @@
 
     internal class DerivedClass : BaseClass
     {
-        public DerivedClass(int field1)
-        {
-            // Error: base class private method not available in derived class
-            // because it is hidden.
-            Initialize();
+        // Uncomment the following code to see the errors.
+        //public DerivedClass(int field1)
+        //{
+        //    // Error: base class private method not available in derived class
+        //    // because it is hidden.
+        //    Initialize();
 
-            // Error: base class private field not available in derived class
-            // because it is hidden.
-            _field1 = field1;
-        }
+        //    // Error: base class private field not available in derived class
+        //    // because it is hidden.
+        //    _field1 = field1;
+        //}
 
         // Private class members can only be accessed through public or
         // protected members.
