@@ -52,7 +52,7 @@
         }
     }
 
-    internal class DemopClass
+    internal class DemoClass
     {
         public void DemoMethod()
         {
