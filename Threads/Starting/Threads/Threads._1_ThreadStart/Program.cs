@@ -16,6 +16,7 @@ namespace Threads._1_ThreadStart
             while (true)
             {
                 Console.WriteLine("Primary");
+                Thread.Sleep(100);
             }
         }
 
@@ -24,6 +25,7 @@ namespace Threads._1_ThreadStart
             while (true)
             {
                 Console.WriteLine("\tSecondary");
+                Thread.Sleep(100);
             }
         }
     }

@@ -87,6 +87,7 @@ private static void Main(string[] args)
     while (true)
     {
         Console.WriteLine("Primary");
+        Thread.Sleep(100);
     }
 }
 
@@ -95,6 +96,7 @@ private static void PrintSecondary()
     while (true)
     {
         Console.WriteLine("\tSecondary");
+        Thread.Sleep(100);
     }
 }
 ```
