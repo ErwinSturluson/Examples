@@ -1,15 +1,5 @@
 # **TAP (Task-Based Asynchronous Pattern)**
 
----
-1) Библиотека TPL;
-2) Шаблон TAP;
-3) Задача (Task);
-4) Фабрика задач (Task Factory);
-5) Продолжения задач (Task Continuations);
-6) Значимая задача (ValueTask);
-7) Task vs ValueTask.
----
-
 **TAP (Task-Based Asynchronous Pattern)** - шаблон асинхронного программирования, основанный на задачах.
 
 **TAP** реализован в **.NET** в качестве библиотеки **TPL**.
