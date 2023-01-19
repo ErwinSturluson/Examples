@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildAndNestedTasks._01_ChildTasks", "ChildAndNestedTasks._01_ChildTasks\ChildAndNestedTasks._01_ChildTasks.csproj", "{2D0CFDCB-332A-4652-91B5-A2C8AC4BB896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._02_NestedTasks", "ChildAndNestedTasks._02_NestedTasks\ChildAndNestedTasks._02_NestedTasks.csproj", "{B3932FD3-9425-4D43-AE2C-D3D74B3C2A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._03_ChildTasks.DenyChildAttach", "ChildAndNestedTasks._03_ChildTasks.DenyChildAttach\ChildAndNestedTasks._03_ChildTasks.DenyChildAttach.csproj", "{F5DB4930-98B8-4483-903A-401E89FF9EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._04_AwaitedNestedTasks", "ChildAndNestedTasks._04_AwaitedNestedTasks\ChildAndNestedTasks._04_AwaitedNestedTasks.csproj", "{3CC29B49-8E8B-41B0-9777-46C76C68D7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._05_ChildTaskContinuations", "ChildAndNestedTasks._05_ChildTaskContinuations\ChildAndNestedTasks._05_ChildTaskContinuations.csproj", "{F5B33696-3885-4892-B244-306673A87FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._06_ChildContinuations", "ChildAndNestedTasks._06_ChildContinuations\ChildAndNestedTasks._06_ChildContinuations.csproj", "{EB5BF8CB-E7B0-4163-B2DF-03E1778EB193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildAndNestedTasks._07_ChildTaskChildContinuations", "ChildAndNestedTasks._07_ChildTaskChildContinuations\ChildAndNestedTasks._07_ChildTaskChildContinuations.csproj", "{4883E573-B9AB-4819-995B-C2413D2321B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildAndNestedTasks._08_RunMethodAndChildTasks", "ChildAndNestedTasks._08_RunMethodAndChildTasks\ChildAndNestedTasks._08_RunMethodAndChildTasks.csproj", "{34FD5B92-F0D7-4DCD-B838-5529A68D9444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0CFDCB-332A-4652-91B5-A2C8AC4BB896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0CFDCB-332A-4652-91B5-A2C8AC4BB896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0CFDCB-332A-4652-91B5-A2C8AC4BB896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0CFDCB-332A-4652-91B5-A2C8AC4BB896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3932FD3-9425-4D43-AE2C-D3D74B3C2A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3932FD3-9425-4D43-AE2C-D3D74B3C2A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3932FD3-9425-4D43-AE2C-D3D74B3C2A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3932FD3-9425-4D43-AE2C-D3D74B3C2A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DB4930-98B8-4483-903A-401E89FF9EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DB4930-98B8-4483-903A-401E89FF9EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DB4930-98B8-4483-903A-401E89FF9EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DB4930-98B8-4483-903A-401E89FF9EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC29B49-8E8B-41B0-9777-46C76C68D7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC29B49-8E8B-41B0-9777-46C76C68D7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC29B49-8E8B-41B0-9777-46C76C68D7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC29B49-8E8B-41B0-9777-46C76C68D7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B33696-3885-4892-B244-306673A87FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B33696-3885-4892-B244-306673A87FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B33696-3885-4892-B244-306673A87FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B33696-3885-4892-B244-306673A87FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5BF8CB-E7B0-4163-B2DF-03E1778EB193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5BF8CB-E7B0-4163-B2DF-03E1778EB193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5BF8CB-E7B0-4163-B2DF-03E1778EB193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5BF8CB-E7B0-4163-B2DF-03E1778EB193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4883E573-B9AB-4819-995B-C2413D2321B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4883E573-B9AB-4819-995B-C2413D2321B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4883E573-B9AB-4819-995B-C2413D2321B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4883E573-B9AB-4819-995B-C2413D2321B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FD5B92-F0D7-4DCD-B838-5529A68D9444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FD5B92-F0D7-4DCD-B838-5529A68D9444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FD5B92-F0D7-4DCD-B838-5529A68D9444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FD5B92-F0D7-4DCD-B838-5529A68D9444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4454265-5D29-4849-8259-3CEE08ABCCD6}
+	EndGlobalSection
+EndGlobal
