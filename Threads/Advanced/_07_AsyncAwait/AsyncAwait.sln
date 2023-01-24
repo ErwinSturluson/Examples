@@ -21,19 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._08_FiniteStateM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._09_MultipleAwait_2Times", "AsyncAwait._09_MultipleAwait\AsyncAwait._09_MultipleAwait_2Times.csproj", "{0ACBCD28-71DF-4FF4-9876-D8F2FD2BD0D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._10_MultipleAwait_2Times.Decompiled.Debug", "AsyncAwait._09_MultipleAwait_2Times.Decompiled.Debug\AsyncAwait._10_MultipleAwait_2Times.Decompiled.Debug.csproj", "{7EB850A5-CC80-42F1-9B7A-5559DF669DEB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._11_MultipleAwait_3AndMoreTimes", "AsyncAwait._11_MultipleAwait_3Times\AsyncAwait._11_MultipleAwait_3AndMoreTimes.csproj", "{DFA11EB7-12FB-4B22-93D8-112D8286C3B7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._12_MultipleAwait_3AndMoreTimes.Decompiled.Debug", "AsyncAwait._12_MultipleAwait_3AndMoreTimes.Decompiled.Debug\AsyncAwait._12_MultipleAwait_3AndMoreTimes.Decompiled.Debug.csproj", "{0782B34B-E899-40EA-B682-DA9788228FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait._13_AsyncMainMethod", "AsyncAwait._13_AsyncMainMethod\AsyncAwait._13_AsyncMainMethod.csproj", "{AC23EA81-34AA-44C6-AC4F-533D3C499240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._13_AsyncMainMethod", "AsyncAwait._13_AsyncMainMethod\AsyncAwait._13_AsyncMainMethod.csproj", "{AC23EA81-34AA-44C6-AC4F-533D3C499240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait._14_AsyncMainMethod.Decompiled.Debug", "AsyncAwait._14_AsyncMainMethod.Decompiled.Debug\AsyncAwait._14_AsyncMainMethod.Decompiled.Debug.csproj", "{AA577DA9-C110-41FC-9B3D-A6361A2B8B8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._14_AsyncMainMethod.Decompiled.Debug", "AsyncAwait._14_AsyncMainMethod.Decompiled.Debug\AsyncAwait._14_AsyncMainMethod.Decompiled.Debug.csproj", "{AA577DA9-C110-41FC-9B3D-A6361A2B8B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait._15_TaskResult", "AsyncAwait._15_TaskResult\AsyncAwait._15_TaskResult.csproj", "{849DCC6A-8727-423E-B971-80B98FA73F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._15_TaskResult", "AsyncAwait._15_TaskResult\AsyncAwait._15_TaskResult.csproj", "{849DCC6A-8727-423E-B971-80B98FA73F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait._16_TaskResult.Decompiled.Debug", "AsyncAwait._16_TaskResult.Decompiled.Debug\AsyncAwait._16_TaskResult.Decompiled.Debug.csproj", "{CE516585-C4C7-43A4-836E-E1E0218138F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._16_TaskResult.Decompiled.Debug", "AsyncAwait._16_TaskResult.Decompiled.Debug\AsyncAwait._16_TaskResult.Decompiled.Debug.csproj", "{CE516585-C4C7-43A4-836E-E1E0218138F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait._10_MultipleAwait_2Times.Decompiled.Debug", "AsyncAwait._10_MultipleAwait_2Times.Decompiled.Debug\AsyncAwait._10_MultipleAwait_2Times.Decompiled.Debug.csproj", "{FF964D70-1AFB-4F71-8351-7A1CD0064124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,10 +77,6 @@ Global
 		{0ACBCD28-71DF-4FF4-9876-D8F2FD2BD0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ACBCD28-71DF-4FF4-9876-D8F2FD2BD0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ACBCD28-71DF-4FF4-9876-D8F2FD2BD0D3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7EB850A5-CC80-42F1-9B7A-5559DF669DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7EB850A5-CC80-42F1-9B7A-5559DF669DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7EB850A5-CC80-42F1-9B7A-5559DF669DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7EB850A5-CC80-42F1-9B7A-5559DF669DEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFA11EB7-12FB-4B22-93D8-112D8286C3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFA11EB7-12FB-4B22-93D8-112D8286C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA11EB7-12FB-4B22-93D8-112D8286C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,6 +101,10 @@ Global
 		{CE516585-C4C7-43A4-836E-E1E0218138F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE516585-C4C7-43A4-836E-E1E0218138F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE516585-C4C7-43A4-836E-E1E0218138F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF964D70-1AFB-4F71-8351-7A1CD0064124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF964D70-1AFB-4F71-8351-7A1CD0064124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF964D70-1AFB-4F71-8351-7A1CD0064124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF964D70-1AFB-4F71-8351-7A1CD0064124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
