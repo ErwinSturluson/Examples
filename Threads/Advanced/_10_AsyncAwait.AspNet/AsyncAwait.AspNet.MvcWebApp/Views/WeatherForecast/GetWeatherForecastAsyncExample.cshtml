@@ -1,0 +1,70 @@
+﻿@using AsyncAwait.AspNet.WebApiService.ViewModels;
+
+@{
+    ViewData["Title"] = "Get Weather Forecast Async Example";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Async Await in ASP.NET applications</h1>
+    <h2 class="display-6">Weather Forecast Async Example</h2>
+</div>
+
+@{
+    if (ViewData["WeatherForecasts"] != null)
+    {
+        IEnumerable<WeatherForecast> weatherForecasts = (IEnumerable<WeatherForecast>)ViewData["WeatherForecasts"]!;
+
+        <style>
+            th, td {
+                padding: 1em;
+                text-align: center;
+            }
+
+            thead {
+                border-bottom: 1px;
+            }
+        </style>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        TemperatureC
+                    </th>
+                    <th>
+                        TemperatureF
+                    </th>
+                    <th>
+                        Summary
+                    </th>
+                </tr>
+            </thead>
+            @foreach (WeatherForecast item in weatherForecasts)
+            {
+                <tr>
+                    <th>
+                        @item.Date
+                    </th>
+                    <th>
+                        @item.TemperatureC
+                    </th>
+                    <th>
+                        @item.TemperatureF
+                    </th>
+                    <th>
+                        @item.Summary
+                    </th>
+                </tr>
+            }
+            <tbody>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Loading data...</p>
+    }
+}
