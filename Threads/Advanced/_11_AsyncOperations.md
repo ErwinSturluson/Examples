@@ -269,7 +269,7 @@ int bytes = fs.Read(buffer, offset, count);
 
 ```cs
 var fs = new FileStream("filePath", FileOptions.Asynchronous);
-int bytes = fs.Read(buffer, offset, count);
+int bytes = await fs.ReadAsync(buffer, offset, count);
 ```
 
 **Отличия работы синхронного ввода-вывода от асинхронного:**
