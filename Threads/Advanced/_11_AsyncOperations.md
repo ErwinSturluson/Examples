@@ -327,8 +327,11 @@ internal class Program
 
         lock (_consoleLock)
         {
+            Console.WriteLine($"Continuation of Async IO Result of HTTP Request is executing in ThreeadPoolThread: [{Thread.CurrentThread.IsThreadPoolThread}].");
             Console.WriteLine("Async IO Result of HTTP Request was Received after" + MakeElapsedTimeString(sw.Elapsed));
         }
+
+        Thread.Sleep(200);
 
         return asyncResult;
     }
@@ -337,7 +340,7 @@ internal class Program
 
     private static void StartThreadPoolMonitoring()
     {
-        Thread thredPoolMonitoringThread = new(() =>
+        Thread thredPoolMonitoringThread = new Thread(() =>
         {
             while (true)
             {
