@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait.AdditionalMethods._01_Task.Delay", "AsyncAwait.AdditionalMethods._01_Task.Delay\AsyncAwait.AdditionalMethods._01_Task.Delay.csproj", "{5FB85ECE-D6D9-4501-A7E8-B02CBC1CBF3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait.AdditionalMethods._02_Task.WhenAll", "AsyncAwait.AdditionalMethods._02_Task.WhenAll\AsyncAwait.AdditionalMethods._02_Task.WhenAll.csproj", "{275D548C-AB88-4A16-A21A-09B6399216FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait.AdditionalMethods._03_Task.WhenAny", "AsyncAwait.AdditionalMethods._03_Task.WhenAny\AsyncAwait.AdditionalMethods._03_Task.WhenAny.csproj", "{D14E0ED0-4CB2-4799-B9D1-B70A43F6DD41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB85ECE-D6D9-4501-A7E8-B02CBC1CBF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB85ECE-D6D9-4501-A7E8-B02CBC1CBF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB85ECE-D6D9-4501-A7E8-B02CBC1CBF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB85ECE-D6D9-4501-A7E8-B02CBC1CBF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275D548C-AB88-4A16-A21A-09B6399216FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275D548C-AB88-4A16-A21A-09B6399216FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275D548C-AB88-4A16-A21A-09B6399216FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275D548C-AB88-4A16-A21A-09B6399216FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14E0ED0-4CB2-4799-B9D1-B70A43F6DD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14E0ED0-4CB2-4799-B9D1-B70A43F6DD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14E0ED0-4CB2-4799-B9D1-B70A43F6DD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14E0ED0-4CB2-4799-B9D1-B70A43F6DD41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5CE196F-107E-42E1-9C93-ED3A62C796A5}
+	EndGlobalSection
+EndGlobal
