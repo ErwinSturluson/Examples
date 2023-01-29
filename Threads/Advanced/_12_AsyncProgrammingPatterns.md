@@ -406,7 +406,3 @@ namespace AsyncProgrammingPatterns._05_TaskCompletionSource_EAP_TAP
     }
 }
 ```
-
-
-
-
