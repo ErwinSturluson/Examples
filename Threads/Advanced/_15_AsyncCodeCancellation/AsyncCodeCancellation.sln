@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33318.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncCodeCancellation._01_CancellationToken", "AsyncCodeCancellation._01_CancellationToken\AsyncCodeCancellation._01_CancellationToken.csproj", "{B8B438B7-B403-42A3-AC82-3514298C4279}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncCodeCancellation._02_CancellationToken.TaskScheduler", "AsyncCodeCancellation._02_CancellationToken.TaskScheduler\AsyncCodeCancellation._02_CancellationToken.TaskScheduler.csproj", "{B50097DC-0D19-4379-B149-C63BBADDEF49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncCodeCancellation._03_CancellationToken.CancelAfter", "AsyncCodeCancellation._03_CancellationToken.CancelAfter\AsyncCodeCancellation._03_CancellationToken.CancelAfter.csproj", "{A318C6F7-BCB1-4065-BBC7-FB9062FDFB13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncCodeCancellation._04_CreateLinkedTokenSource", "AsyncCodeCancellation._04_CreateLinkedTokenSource\AsyncCodeCancellation._04_CreateLinkedTokenSource.csproj", "{FF809F8B-9CCD-45BF-AC91-DF1DB3BBC4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCodeCancellation._05_CancellationToken.Register", "AsyncCodeCancellation._05_CancellationToken.Register\AsyncCodeCancellation._05_CancellationToken.Register.csproj", "{A754C699-2AF6-4B09-B4CE-BF245689334B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B438B7-B403-42A3-AC82-3514298C4279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B438B7-B403-42A3-AC82-3514298C4279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B438B7-B403-42A3-AC82-3514298C4279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B438B7-B403-42A3-AC82-3514298C4279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50097DC-0D19-4379-B149-C63BBADDEF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50097DC-0D19-4379-B149-C63BBADDEF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50097DC-0D19-4379-B149-C63BBADDEF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50097DC-0D19-4379-B149-C63BBADDEF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A318C6F7-BCB1-4065-BBC7-FB9062FDFB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A318C6F7-BCB1-4065-BBC7-FB9062FDFB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A318C6F7-BCB1-4065-BBC7-FB9062FDFB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A318C6F7-BCB1-4065-BBC7-FB9062FDFB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF809F8B-9CCD-45BF-AC91-DF1DB3BBC4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF809F8B-9CCD-45BF-AC91-DF1DB3BBC4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF809F8B-9CCD-45BF-AC91-DF1DB3BBC4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF809F8B-9CCD-45BF-AC91-DF1DB3BBC4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A754C699-2AF6-4B09-B4CE-BF245689334B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A754C699-2AF6-4B09-B4CE-BF245689334B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A754C699-2AF6-4B09-B4CE-BF245689334B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A754C699-2AF6-4B09-B4CE-BF245689334B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C81A1576-026D-44CD-A7E5-6089F5AE2D12}
+	EndGlobalSection
+EndGlobal
