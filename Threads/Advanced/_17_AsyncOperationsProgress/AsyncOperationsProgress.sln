@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33318.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncOperationsProgress._01_IProgressT", "AsyncOperationsProgress._01_IProgressT\AsyncOperationsProgress._01_IProgressT.csproj", "{28F8CCAA-4951-4692-B3F3-BF43B421FB06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F8CCAA-4951-4692-B3F3-BF43B421FB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F8CCAA-4951-4692-B3F3-BF43B421FB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F8CCAA-4951-4692-B3F3-BF43B421FB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F8CCAA-4951-4692-B3F3-BF43B421FB06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7899D2-BA0F-4367-A038-4A7DD74C470A}
+	EndGlobalSection
+EndGlobal
