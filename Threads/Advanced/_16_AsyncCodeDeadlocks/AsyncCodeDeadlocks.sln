@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33318.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCodeDeadlocks._01_MultipleThreads", "AsyncCodeDeadlocks._01_MultipleThreads\AsyncCodeDeadlocks._01_MultipleThreads.csproj", "{3F188200-217C-405E-9848-D7AAEDF71EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncCodeDeadlocks._02_SingleThread", "AsyncCodeDeadlocks._02_SingleThread\AsyncCodeDeadlocks._02_SingleThread.csproj", "{913C6986-9C05-4A3E-8B6E-BAA98F6113BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F188200-217C-405E-9848-D7AAEDF71EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F188200-217C-405E-9848-D7AAEDF71EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F188200-217C-405E-9848-D7AAEDF71EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F188200-217C-405E-9848-D7AAEDF71EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913C6986-9C05-4A3E-8B6E-BAA98F6113BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913C6986-9C05-4A3E-8B6E-BAA98F6113BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913C6986-9C05-4A3E-8B6E-BAA98F6113BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913C6986-9C05-4A3E-8B6E-BAA98F6113BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F545DB5-F1F6-431D-A424-52966EC94B66}
+	EndGlobalSection
+EndGlobal
