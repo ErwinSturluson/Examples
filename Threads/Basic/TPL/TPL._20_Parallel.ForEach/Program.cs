@@ -41,7 +41,7 @@ namespace TPL._20_Parallel.ForEach
 
             if (loopResult.IsCompleted)
             {
-                Console.WriteLine($"Frames rendering has finished succesfully.");
+                Console.WriteLine($"Frames rendering has finished successfully.");
             }
             else
             {

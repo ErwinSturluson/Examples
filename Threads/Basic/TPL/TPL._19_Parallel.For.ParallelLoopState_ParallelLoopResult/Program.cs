@@ -26,7 +26,7 @@ namespace TPL._19_Parallel.For.ParallelLoopState_ParallelLoopResult
 
             if (loopResult.IsCompleted)
             {
-                Console.WriteLine($"Frames rendering has finished succesfully.");
+                Console.WriteLine($"Frames rendering has finished successfully.");
             }
             else
             {
