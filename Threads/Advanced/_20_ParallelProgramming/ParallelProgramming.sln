@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33318.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._01_Parallel.Invoke", "ParallelProgramming._01_Parallel.Invoke\ParallelProgramming._01_Parallel.Invoke.csproj", "{D9857F1C-0303-4609-88B9-AA487AA0CD84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._02_Parallel.For", "ParallelProgramming._02_Parallel.For\ParallelProgramming._02_Parallel.For.csproj", "{A1518AB4-C3AD-4868-928F-B5A817BE5855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._03_Parallel.ForEach", "ParallelProgramming._03_Parallel.ForEach\ParallelProgramming._03_Parallel.ForEach.csproj", "{93D59D45-5013-4997-AF26-DB1DD57F2A85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._04_ParallelOptions.CancellationToken", "ParallelProgramming._04_ParallelOptions.CancellationToken\ParallelProgramming._04_ParallelOptions.CancellationToken.csproj", "{21F6F4C6-C5B0-4A27-907D-D453F938B68D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._05_ParallelOptions.MaxDegreeOfParallelism", "ParallelProgramming._05_ParallelOptions.MaxDegreeOfParallelism\ParallelProgramming._05_ParallelOptions.MaxDegreeOfParallelism.csproj", "{028FCA95-B8BD-41ED-8A38-67A47481B823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._06_ParallelOptions.TaskScheduler", "ParallelProgramming._06_ParallelOptions.TaskScheduler\ParallelProgramming._06_ParallelOptions.TaskScheduler.csproj", "{A0F6179A-E626-44AD-99CC-2587C6C00FA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._07_Parallel.For.ParallelLoopState", "ParallelProgramming._07_Parallel.For.ParallelLoopState\ParallelProgramming._07_Parallel.For.ParallelLoopState.csproj", "{1BE182C9-1599-4878-A836-19D89C0CB1B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelProgramming._08_Parallel.For.ParallelLoopResult", "ParallelProgramming._08_Parallel.For.ParallelLoopResult\ParallelProgramming._08_Parallel.For.ParallelLoopResult.csproj", "{20CD0BA8-E1A1-4A54-8231-1749E72BACB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelProgramming._09_Environment.ProcessorCount", "ParallelProgramming._09_Environment.ProcessorCount\ParallelProgramming._09_Environment.ProcessorCount.csproj", "{2022D57E-D4F5-4FDE-85BE-FF020B9BB9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9857F1C-0303-4609-88B9-AA487AA0CD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9857F1C-0303-4609-88B9-AA487AA0CD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9857F1C-0303-4609-88B9-AA487AA0CD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9857F1C-0303-4609-88B9-AA487AA0CD84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1518AB4-C3AD-4868-928F-B5A817BE5855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1518AB4-C3AD-4868-928F-B5A817BE5855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1518AB4-C3AD-4868-928F-B5A817BE5855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1518AB4-C3AD-4868-928F-B5A817BE5855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D59D45-5013-4997-AF26-DB1DD57F2A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D59D45-5013-4997-AF26-DB1DD57F2A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D59D45-5013-4997-AF26-DB1DD57F2A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D59D45-5013-4997-AF26-DB1DD57F2A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F6F4C6-C5B0-4A27-907D-D453F938B68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F6F4C6-C5B0-4A27-907D-D453F938B68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F6F4C6-C5B0-4A27-907D-D453F938B68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F6F4C6-C5B0-4A27-907D-D453F938B68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028FCA95-B8BD-41ED-8A38-67A47481B823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028FCA95-B8BD-41ED-8A38-67A47481B823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028FCA95-B8BD-41ED-8A38-67A47481B823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028FCA95-B8BD-41ED-8A38-67A47481B823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F6179A-E626-44AD-99CC-2587C6C00FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F6179A-E626-44AD-99CC-2587C6C00FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F6179A-E626-44AD-99CC-2587C6C00FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F6179A-E626-44AD-99CC-2587C6C00FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE182C9-1599-4878-A836-19D89C0CB1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE182C9-1599-4878-A836-19D89C0CB1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE182C9-1599-4878-A836-19D89C0CB1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE182C9-1599-4878-A836-19D89C0CB1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CD0BA8-E1A1-4A54-8231-1749E72BACB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CD0BA8-E1A1-4A54-8231-1749E72BACB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CD0BA8-E1A1-4A54-8231-1749E72BACB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CD0BA8-E1A1-4A54-8231-1749E72BACB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2022D57E-D4F5-4FDE-85BE-FF020B9BB9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2022D57E-D4F5-4FDE-85BE-FF020B9BB9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2022D57E-D4F5-4FDE-85BE-FF020B9BB9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2022D57E-D4F5-4FDE-85BE-FF020B9BB9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15B4C46F-1A80-4DFD-B90F-A76C5806ECA4}
+	EndGlobalSection
+EndGlobal
