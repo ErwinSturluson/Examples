@@ -537,9 +537,11 @@ Internet of Things (IoT) is a network of internet connected devices (IoT Devices
 # **15 Azure Big Data & Analytics Services**
 
 ## **What is Big Data?**
+
 **Big Data** is a field of technology that helps with the extraction, processing and analysis of information that is too large or complex to be dealt with by traditional software.
 
 ## **The three V’s rule**
+
 Big data typically has one of the following characteristics:
 - Velocity - how fast the data is coming in or how fast we are processing it:
     - Batch;
@@ -556,21 +558,99 @@ Big data typically has one of the following characteristics:
     - Databases;
     - Photo, Audio;
     - Video, Social Media.
+
 ## **Azure Synapse Analytics**
-- Big data analytics platform (PaaS)
-- Multiple components
-    - Spark
-    - Synapse SQL
-        - SQL pools (dedicated – pay for provisioned performance)
-        - SQL on-demand (ad-hoc – pay for TB processed)
-    - Synapse Pipelines (Data Factory – ETL)
-    - Studio (unified experience)
+
+- Big data analytics platform (PaaS);
+- Multiple components:
+    - Spark;
+    - Synapse SQL:
+        - SQL pools (dedicated – pay for provisioned performance);
+        - SQL on-demand (ad-hoc – pay for TB processed);
+    - Synapse Pipelines (Data Factory – ETL);
+    - Studio (unified experience).
+
 ## **Azure HDInsight**
-- Flexible multi-purpose big data platform (PaaS)
-- Multiple technologies supported (Hadoop, Spark, Kafka, HBase, Hive, Storm, Machine Learning)
+
+- Flexible multi-purpose big data platform (PaaS);
+- Multiple technologies supported (Hadoop, Spark, Kafka, HBase, Hive, Storm, Machine Learning).
+
 ## **Azure Databricks**
-- Big data collaboration platform (PaaS)
-- Unified workspace for notebook, cluster, data, access management and collaboration
-- Based on Apache Spark
-- Integrates very well with common Azure data services
+- Big data collaboration platform (PaaS);
+- Unified workspace for notebook, cluster, data, access management and collaboration;
+- Based on Apache Spark;
+- Integrates very well with common Azure data services.
+
+---
+
+# **16 Azure Machine Learning**
+
+**Artificial Intelligence (AI)** is the simulation of human intelligence & capabilities by computer software.
+
+**Machine Learning** is a subcategory of AI where a computer software is “taught” to draw conclusions and make predictions from data.
+
+- Cloud-based platform for creating, managing and publishing machine learning models
+- Platform as a Service (PaaS)
+- Machine Learning Workspace – top level resource
+- Machine Learning Studio – web portal for end-2-end development
+- Features
+    - Notebooks – using Python and R
+    - Automated ML – run multiple algorithms/parameters combinations, choose the best model
+    - Designer – graphical interface for no-code development
+    - Data & Compute – management of storage and compute resources
+    - Pipelines – orchestrate model training, deployment and management tasks
+
+# **17 Azure Serverless Computing Services**
+
+**Serverless computing** is cloud-hosted execution environment that allows customers to run their applications in the cloud while completely abstracting underlying infrastructure.
+
+## **Azure Functions**
+- Serverless coding platform (Functions as a Service, FaaS);
+- Designed for nano-service architectures and event-based applications;
+- Scales up and down very quickly;
+- Highly scalable;
+- Supports popular languages and frameworks (.NET & .NET Core, Java, Node.js, Python, PowerShell, etc.).
+
+## **Azure Logic Apps**
+- Serverless enterprise integration service (PaaS);
+- 200+ connectors for popular services;
+- Designed for orchestration of
+    - business processes,
+    - integration workflows for applications, data, systems and services;
+- No-code solution.
+
+## **Azure Event Grid**
+- Fully managed serverless event routing service;
+- Uses publish-subscribe model;
+- Designed for event-based and near-real time applications;
+- Supports dozen of built-in events from most common Azure services.
+
+# **17 Azure DevOps Solutions**
+
+**DevOps** is a set of practices that combine both development (Dev) and operations (Ops).
+
+**DevOps** aims to shorten the development life cycle by providing continuous integration and delivery (CI/CD) capabilities while ensuring high quality of deliverables.
+
+## **Azure DevOps**
+
+- Collection of services for building solutions using DevOps practices;
+- Services included;
+    - Boards – tracking work;
+    - Pipelines – building CI/CD workflows (build, test and deploy apps);
+    - Repos – code collaboration and versioning with Git;
+    - Test Plans – manual and exploratory testing;
+    - Artifacts – manage project deliverables;
+- Extensible with Marketplace – over 1000 of available apps;
+- Evolved from TFS (Team Foundation Server), through VSTS (Visual Studio Team Services).
+
+## **Azure DevTest Labs**
+
+- Service for creation of sandbox environments for developers/testers (PaaS)
+- Quick setup of self-managed virtual machines
+- Preconfigured templates for VMs
+- Plenty of additional artifacts (tools, apps, custom actions)
+- Lab policies (quotas, sizes, auto-shutdowns)
+- Share and automate labs via custom images
+- Premade plugins/API/tools for CI/CD pipeline automation
+
 
