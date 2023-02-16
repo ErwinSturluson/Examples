@@ -699,7 +699,7 @@ Big data typically has one of the following characteristics:
     - Azure Mobile App;
     - Microsoft Docs integration.
 
-# 20 **Azure Advisor**
+# **20 Azure Advisor**
 
 - Personalized consultant service;
 - Designed to provide recommendations and best practices for:
