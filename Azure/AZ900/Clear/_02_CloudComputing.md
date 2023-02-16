@@ -600,6 +600,8 @@ Big data typically has one of the following characteristics:
     - Data & Compute – management of storage and compute resources
     - Pipelines – orchestrate model training, deployment and management tasks
 
+---
+
 # **17 Azure Serverless Computing Services**
 
 **Serverless computing** is cloud-hosted execution environment that allows customers to run their applications in the cloud while completely abstracting underlying infrastructure.
@@ -624,6 +626,8 @@ Big data typically has one of the following characteristics:
 - Uses publish-subscribe model;
 - Designed for event-based and near-real time applications;
 - Supports dozen of built-in events from most common Azure services.
+
+---
 
 # **18 Azure DevOps Solutions**
 
@@ -652,6 +656,8 @@ Big data typically has one of the following characteristics:
 - Lab policies (quotas, sizes, auto-shutdowns);
 - Share and automate labs via custom images;
 - Premade plugins/API/tools for CI/CD pipeline automation.
+
+---
 
 # **19 Azure Tools**
 
@@ -699,6 +705,9 @@ Big data typically has one of the following characteristics:
     - Azure Mobile App;
     - Microsoft Docs integration.
 
+
+---
+
 # **20 Azure Advisor**
 
 - Personalized consultant service;
@@ -710,3 +719,118 @@ Big data typically has one of the following characteristics:
     - Operational Excellence (service health, subscription limits, etc.);
 - Actionable recommendations;
 - Free!
+
+---
+
+# **21 Azure Security Groups**
+
+## **Network Security Groups**
+
+- Designed to filter traffic to (inbound) and from (outbound) Azure resources located in - Azure Virtual Network;
+- Filtering controlled by rules;
+- Ability to have multiple inbound and outbound rules;
+- Rules are created by specifying:
+    - Source/Destination (IP addresses, service tags, application security groups);
+    - Protocol (TCP, UDP, any);
+    - Port (or Port Ranges, ex. 3389 – RDP, 22 – SSH, 80 HTTP, 443 HTTPS);
+    - Direction (inbound or outbound);
+    - Priority (order of evaluation).
+
+## **Application Security Groups**
+
+- Feature that allows grouping of virtual machines located in Azure virtual network;
+- Designed to reduce the maintenance effort (assign ASG instead of the explicit IP address).
+
+---
+
+# **22 Azure User-Defined Routes**
+
+**Routing** is a process of finding/selecting a path for traffic in one or across multiple networks.
+
+## **User-defined Routes**
+- Custom (user-defined, static) routes (UDRs);
+- Designed to override Azure’s default routing or add new routes
+- Managed via Azure Route Table resource
+- Associated with a zero or more Virtual Network subnets.
+
+---
+
+# **23 Azure Firewall**
+
+**Firewall** is a network security service that monitors and controls incoming and outgoing traffic.
+
+## **Azure Firewall**
+
+- Managed, cloud-based firewall service (PaaS, Firewall as a Service);
+- Built-in high availability;
+- Highly Scalable;
+- Inbound & outbound traffic filtering rules;
+- Support for FQDN (Fully Qualified Domain Name), ex. microsoft.com;
+- Fully integrated with Azure monitor for logging and analytics.
+
+---
+
+# **24 Azure DDoS Protection**
+
+**DoS (Denial of Service)** - Cyber-attack with intent to cause temporary or indefinite disruption of service.
+
+**DDoS (Distributed Denial of Service)** - DoS attack that is originating from multiple servers.
+
+## **Azure DDoS Protection**
+
+- DDoS protection service in Azure:
+- Designed to:
+    - Detect malicious traffic and block it while allowing legitimate users to connect;
+    - Prevent additional costs for auto-scaling environments;
+- Two tiers:
+    - Basic – automatically enabled for Azure platform;
+    - Standard – additional mitigation & monitoring capabilities for Azure Virtual Network resources.
+- Standard tier uses machine learning to analyze traffic patterns for better accuracy.
+
+---
+
+# **25 Azure Identity Services**
+
+## **Identity**
+
+- A user with a username and password;
+- Also applications or other servers with secret keys or certificates;
+- The fact of being something or someone.
+
+## **Authentication**
+
+The process of verification/assertion of identity
+
+## **Authorization**
+
+The process of ensuring that only authenticated identities get access to the resources for which they have been granted access.
+
+## **Access Management**
+
+The process of controlling, verifying, tracking and managing access to authorized users and applications.
+
+## **Azure Active Directory**
+
+- Identity and Access Management service in Azure;
+- Identities management – users, groups, applications;
+- Access management – subscriptions, resource groups, roles, role assignments, authentication & authorization settings, etc.
+- Used by multiple Microsoft cloud platforms:
+    - Azure;
+    - Microsoft 365;
+    - Office 365;
+    - Live.com services (Skype, OneDrive, etc.).
+
+## **Multi-factor Authentication (MFA)**
+
+- Process of authentication using more than one factor (evidence) to prove identity;
+- Factor types:
+    - Knowledge Factor – “Something you know”, ex. password, pin;
+    - Possession Factor – “Something you have”, ex. phone, token, card, key;
+    - Physical Characteristic Factor – “Something you are”, ex. fingerprint, voice, face, eye iris;
+    - Location Factor – “Somewhere you are”, ex. GPS location;
+- Supported by Azure AD by default (simple on-off switch).
+
+---
+
+# ****
+
