@@ -832,5 +832,35 @@ The process of controlling, verifying, tracking and managing access to authorize
 
 ---
 
-# ****
+# **26 Azure Security Center**
+
+## **Identity**
+- Centralized/unified infrastructure and platform security management service;
+- Natively embedded in Azure services;
+- Integrated with Azure Advisor;
+- Two tiers:
+    - Free (Azure Defender OFF) – included in all Azure services, provides continuous assessments, security score, and actionable security recommendations;
+    - Paid (Azure Defender ON) – hybrid security, threat protection alerts, vulnerability scanning, just in time (JIT) VM access, etc.
+
+---
+
+# **27 Azure Key Vault**
+
+## **Azure Key Vault**
+
+- Managed service for securing sensitive information (application/platform) (PaaS);
+- Secure storage service for:
+    - Keys,
+    - Secrets and
+    - Certificates;
+- Highly integrated with other Azure services (VMs, Logic Apps, Data Factory, Web Apps, etc.);
+- Centralization;
+- Access monitoring and logging.
+
+---
+
+# **28 Azure **
+
+
+
 
