@@ -18,7 +18,7 @@
 
 **Elasticity** is an ability of the system to allocate and deallocate resources dynamically whenever it needed them. 
 
-**Automactic scaling** is an ability to allocate and deallocate resources automatically. In other words it's **elasticity**.
+**Automatic scaling** is an ability to allocate and deallocate resources automatically. In other words it's **elasticity**.
 
 **Agility** means being able to allocate and deallocate resources in a very short time in comparison with on-premises environment.
 
@@ -1059,7 +1059,7 @@ prepared by Microsoft to help companies with their cloud adoption journey.
     - Data - SQL Server, PostreSQL, File Servers, etc.
     - Other - VMware, Azure Stack, etc.
 3. Best Practices - address common migration needs through the application of consistent best practices;
-4. Process Improvements - important part of this porcess heavy activity is to identify bottlenecks and improve with every migration.
+4. Process Improvements - important part of this process heavy activity is to identify bottlenecks and improve with every migration.
 
 ### **Innovate**
 
@@ -1086,6 +1086,126 @@ Ensure that everyone knows what to do and when to do it for every stage in this 
 
 ---
 
-# **34 Azure**
+# **34 Azure Core Tenets of Security, Privacy and Compliance**
+
+## **Azure Core Tenets of Security, Privacy and Compliance (Trust Center, DPA, OST, and more)**
+
+|Document/Website|Info|Offers|Audience|
+|---|---|---|---|
+|Microsoft Privacy Statement|Collection, Purpose and Usage of Personal Data|All Microsoft offers including services, applications, websites, software, servers, devices|Everyone - end customers or companies|
+|Online Services Terms (OST)|Licensing Terms (legal agreement) - usage rights about Azure services. What can be done and what is forbidden.|Microsoft Online Services like Azure, Microsoft 365 services, Bing Maps, etc.|Organizations - legal teams|
+|Data Protection Addendum|Appending to OST describing obligations by both parties (Microsoft and you) with regards to the processing of customer and personal data|Microsoft Online Services like Azure, Microsoft 365 services, Bing Maps, etc.|Organizations - legal teams, security teams|
+|Trust Center|One stop shop web portal for everything related to security, compliance, privacy, policies, best practices, etc.|Microsoft Online Services like Azure, Microsoft 365 services, Bing Maps, etc.|Organizations - legal teams, security teams, business managers, administrators|
+|Azure Compliance Documentation|Web portal focusing on compliance offerings in Azure, simmilar to the trust center but narrowed down|Azure|Organizations - legal teams, security teams, business managers, Azure administrators|
+
+## **Azure Sovereign Regions**
+
+Azure Sovereign Regions provide Azure services in markets with very strict regulatory requirements
+
+- Azure Government designed for the US government:
+    - Separate instance of Azure (lifecycle, services, portal, etc.);
+    - Physically isolated from other Azure regions;
+    - Only autorized scanned personel can get access;
+- Azure China designed for the Chinese market:
+    - Separate instance of Azure (lifecycle, services, portal, etc.);
+    - Physically isolated from other Azure regions;
+    - Operated by a Chinese telecom company called 21Vianet.
+
+---
+
+# **35 Azure Cost Affecting Factors**
+
+## **Cost Affecting Factors**
+
+- Base Cost:
+    - Resource Types – All Azure services (resources) have resource-specific pricing models. Typically consisting of one or more metrics;
+    - Services – Azure specific offers (Enterprise, Web Direct, CSP, etc.) have different cost and billing components like prepaids, billing cycles, - discounts, etc.;
+    - Location – running Azure services vary between Azure regions;
+    - Bandwidth – network traffic when uploading (inbound/ingress) data to Azure or downloading (outbound/egress) from Azure;
+- Savings:
+    - Reserved Instances;
+    - Hybrid Benefits.
+
+---
+
+# **36 Azure Cost Reduction Methods**
+
+## **Azure Reservations**
+
+Purchase Azure services for 1 or 3 years in advance with a significant discounts:
+
+- Reserved instances – Azure Virtual Machines;
+- Reserved capacity – Azure Storage, SQL Database vCores, Databricks DBUs, Cosmos DB RUs;
+- Software plans – Red Hat, Red Hat OpenShift, SUSE Linux, etc.;
+- Reservations are made for 1 or 3 years.
+
+## **Azure Spot VMs**
+
+Purchase unused Virtual Machine capacity for significant discount:
+
+- How it works:
+    - Significant dicount for Azure VMs;
+    - Capacity can be taken away at any time;
+    - Customer can set maximum price after discount to keep or evict the machine;
+- Best for interruptable workloads (batch processing, dev/test environments, large compute workloads, non-critical tasks, etc.).
+
+## **Hybrid use Benefit**
+
+Use existing licenses in the cloud:
+
+- Use existing licenses in the Azure:
+    - Windows Server:
+        - Azure VM;
+    - RedHat:
+        - Azure VM;
+    - SUSE Linux:
+        - Azure VM;
+    - SQL Server:
+        - Azure SQL Database;
+        - Azure SQL Managed Instance;
+        - Azure SQL Server on VM;
+        - Azure Data Factory SQL Server Integration Services.
+
+
+## **Tools**
+
+- Pricing calculator – estimate the cost of Azure services:
+    - Select service;
+    - Adjust parameters (usage);
+    - View the price;
+- Total Cost of Ownership (TCO) calculator – estimate and compare the cost of running workloads in datacenter versus Azure:
+    - Define your workloads;
+    - Adjust assumptions;
+    - View the report.
+
+---
+
+# **37 Azure Cost Management**
+
+## **Azure Cost Management**
+
+- A centralized service for reporting usage and billing of Azure environment
+- Self-service cost exploration capabilities
+- Budgets & alerts
+- Cost recommendations
+- |Automated exports
+
+## **Minimizing Costs in Azure**
+
+1. Azure Pricing Calculator to choose the low-cost region:
+    - Good latency;
+    - All required services are available;
+    - Data sovereignty/compliance requirements;
+2. Hybrid use benefit and Azure Reservations;
+3. Azure Cost Management monitoring, budgets, alerts and recommendations;
+4. Understand service lifecycle and automate environments;
+5. Use autoscaling features to your advantage;
+6. Azure Monitor to find and scale down underutilized resources;
+7. Use tags & policies for effective governance.
+
+---
+
+# **38 Azure**
 
 ## ****
+
