@@ -2,7 +2,6 @@
 
 Other language versions:
 - [Русский][readme.ru]
-- [Українська][readme.ua]
 
 ## **OOP (Object Oriented Programming)** – is a programming paradigm where the main concepts are the concepts of **objects** and **classes**.
 
